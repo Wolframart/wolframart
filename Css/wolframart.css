@@ -5,6 +5,10 @@
     src: url("/Css/font/bebas_neue/BebasNeue.otf") format("opentype");
 }
 
+a {
+  text-decoration: underline;
+  font-weight: normal;
+}
 
 body {
     font-family: 'Libre Baskerville', serif;
@@ -14,17 +18,52 @@ body {
     background-color: #ffffff;
 }
 
-.alert {
-    padding: 15px;
-    margin-bottom: 23px;
-    border: 1px solid transparent;
-    border-radius: 0px;
+.page-header {
+  padding-bottom: 10.5px;
+  margin: 46px 0 23px;
+  border-bottom: 0px;
 }
 
+.logo {
+    padding-left: 0px;
+}
+
+.alert {
+    padding: 15px;
+    padding-left: 35px;
+    margin-bottom: 30px;
+    border: 1px solid transparent;
+    border-radius: 0px;
+    color: #fff;
+}
+.alert-success {
+  background-color: #4caf50;
+}
+.alert-info {
+  background-color: #9c27b0;
+}
+.alert-warning {
+  background-color: #ff9800;
+}
+.alert-danger {
+  background-color: #e51c23;
+}
+.alert-primary {
+  background-color: #2196f3;
+}
+
+.alert a:not(.close),
+.alert .alert-link {
+  color: inherit;
+  font-weight: normal;
+}
+.alert .close {
+  color: #fff;
+}
 .lead {
-    margin-bottom: 23px;
-    font-size: 14px;
-    font-weight: 300;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 400;
     line-height: 1.4;
 }
 
@@ -38,7 +77,6 @@ h2,
 .h2 {
     font-size: 45px;
     font-family: 'Bebas', sans-serif;
-     color: #fff;
 }
 
 h3,
@@ -65,7 +103,26 @@ h6,
     font-family: 'Bebas', sans-serif;
 }
 
+.white {
+    color: #ffffff;
+}
+
+.centre {
+    text-align:center;
+}
 
 .vtop {   
-    vertical-align: top;
+    vertical-align: top;  margin-top: 0px;
+}
+
+.vtop h2 {   
+    vertical-align: top;  margin-top: 0px;
+}
+
+.text-section {
+  margin-bottom: 15px;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.4;
+  font-size: 14px;
 }
