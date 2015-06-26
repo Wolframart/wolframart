@@ -10,6 +10,7 @@ a {
   font-weight: normal;
 }
 
+
 body {
     font-family: 'Libre Baskerville', serif;
     font-size: 10px;
@@ -74,6 +75,12 @@ body {
   color: inherit;
 }
 
+.panel-body a {
+  text-decoration: underline;
+  font-weight: bold;
+  color: inherit;
+}
+
 h1,
 .h1 {
     font-size: 56px;
@@ -116,6 +123,9 @@ h6,
     color: #ffffff;
 }
 
+.black-background {
+    background-color: #000;
+}
 .centre {
     text-align:center;
 }
@@ -132,7 +142,7 @@ h6,
   margin-bottom: 15px;
   font-size: 17px;
   font-weight: 400;
-  line-height: 1.4;
+  line-height: 1.9;
   font-size: 14px;
   padding-left: 0px;
   padding-right: 0px;
