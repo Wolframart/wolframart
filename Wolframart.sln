@@ -6,20 +6,20 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Wolframart", "http://localh
 		UseIISExpress = "true"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
 		Debug.AspNetCompiler.VirtualPath = "/Wolframart"
-		Debug.AspNetCompiler.PhysicalPath = "..\"
+		Debug.AspNetCompiler.PhysicalPath = "\Wolframart\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Wolframart\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/Wolframart"
-		Release.AspNetCompiler.PhysicalPath = "..\"
+		Release.AspNetCompiler.PhysicalPath = "\Wolframart\"
 		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Wolframart\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		SlnRelativePath = "..\Wolframart\"
+		SlnRelativePath = "\Wolframart\"
 	EndProjectSection
 EndProject
 Global
