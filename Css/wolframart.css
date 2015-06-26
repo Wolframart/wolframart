@@ -67,6 +67,13 @@ body {
     line-height: 1.4;
 }
 
+.panel-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 25px;
+  color: inherit;
+}
+
 h1,
 .h1 {
     font-size: 56px;
@@ -77,6 +84,8 @@ h2,
 .h2 {
     font-size: 45px;
     font-family: 'Bebas', sans-serif;
+      margin-top: 10px;
+  margin-bottom: 4.5px;
 }
 
 h3,
@@ -125,4 +134,52 @@ h6,
   font-weight: 400;
   line-height: 1.4;
   font-size: 14px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
+
+.panel {
+  border: none;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+} 
+
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 30px;
+    color: inherit;
+}
+
+.panel-title > a,
+.panel-title > small,
+.panel-title > .small,
+.panel-title > small > a,
+.panel-title > .small > a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.panel-body {
+    border-bottom: 1px solid #dedede;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(222, 222, 222);
+    border-right: 1px solid #dedede;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: rgb(222, 222, 222);
+    border-left: 1px solid #dedede;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: rgb(222, 222, 222);
+}
+
